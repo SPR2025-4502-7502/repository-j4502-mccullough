@@ -68,7 +68,7 @@
 		flex-direction: column;
 		justify-content: center;
 		background-color: rgba(153, 51, 204, 0.5);
-	/* rgb(153,51,204)*/
+	
 	}
 
 	h1 {
@@ -83,7 +83,39 @@
 
 	p {
 		font-family: Baskerville, serif;
+
 	}
+
+	.corner {
+		width: 50%;
+		height: 50%;
+		position: relative;
+		background-color: rgba(191,236,255,0.1);
+	}
+
+	.corner::before, .corner::after {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 15%;
+		padding-bottom: 15%;
+	}
+
+	.corner::before {
+		bottom: 0;
+		right: 0;
+		border-bottom: 5px solid #ad00e6;
+		border-right: 5px solid #ad00e6;
+	}
+
+	.corner::after {
+		bottom: 0;
+		right: 0;
+		border-bottom: 5px solid #ad00e6;
+		border-right: 5px solid #ad00e6;
+	}
+
+	
 
 	.main-image {
 		display: flex;
