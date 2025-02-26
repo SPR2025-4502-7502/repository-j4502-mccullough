@@ -85,5 +85,19 @@
 		font-family: Baskerville, serif;
 	}
 
-	
+	.main-image {
+		display: flex;
+
+	}
+
+	img {
+		border:none;
+	}
+
+	.main-image img {
+		max-width: 50%;
+		border-radius: 3000px;
+		margin: auto;
+		
+	}
 	}
