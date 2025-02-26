@@ -1,0 +1,56 @@
+
+
+
+
+	nav {
+
+		background-color:;
+		max-width: 800px;
+		margin: auto;
+		font-size: 1rem;
+		border-radius: 0.2rem;
+		text-transform: uppercase;
+	/*	margin-right: 1rem;*/
+	}
+
+	nav ul {
+		display: flex;
+	/*	flex-direction: row-reverse;*/
+	/* 	align-items: stretch;*/
+		flex-direction: row;
+		justify-content: space-between;
+		margin-block-start: 0em;
+		padding-inline-start: 0px;
+	/*	justify-content: right;*/
+	/*	margin-left: 1rem;*/
+
+
+	}
+
+	nav ul li {
+
+		background-color: cadetblue;
+	/*	flex-flow: row wrap;*/
+	/*	align-items: stretch;*/
+		list-style-type: none;
+		padding: 0.3rem;
+		margin: 0.1rem;
+		max-width: 100%;
+		border-radius: 0.5rem;
+	/*	border: 1px solid 		rgba(255,255,255,0.1);*/
+	border: 1px solid		rgba(0,162,230,0.5);
+		border: 5px solid	rgba(230,68,0,0.1);
+	}
+
+	nav ul li a {
+		font-family: 'Slab', serif;
+	/*	font-family: "Humanist", sans-serif;*/
+		font-optical-sizing: auto;
+		font-weight: 700;
+		font-style: normal;
+
+		text-decoration: none;
+		color: rgba(60,90,89,1.0);
+	}
+
+	
