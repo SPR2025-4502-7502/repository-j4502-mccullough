@@ -53,4 +53,21 @@
 		color: rgba(60,90,89,1.0);
 	}
 
+	nav ul li a:visited {
+		text-decoration: none;
+		color: darkred;
+	}
+
+	nav ul li a:hover {
+		text-decoration: ;
+		color: blue;
+	}
+
+	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: rgba(153, 51, 204, 0.5);
+	/* rgb(153,51,204)*/
+	}
 	}
