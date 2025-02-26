@@ -115,7 +115,7 @@
 		border-right: 5px solid #ad00e6;
 	}
 
-	
+
 
 	.main-image {
 		display: flex;
@@ -132,4 +132,57 @@
 		margin: auto;
 
 	}
+
+	.terminal { 
+		background-color: black;
+		background-image: radial-gradient;
+
+	 }
+
+	 .terminal .space {
+	 	color: white;
+	 	font: 1.3rem Serif, sans-serif;
+	 }
+
+	 .terminal .space:after {
+	 	content: "";
+	 	position: absolute;
+	 	top: 0;
+	 	left: 0;
+	 	width: 100vw;
+	 	height: 100vh;
+	 	background: repeating-linear-gradient(
+	 		0deg,
+	 		rgba(black, 0.15),
+	 		rgba(black, 0.15) 1px,
+	 		transparent 1px
+	 		transparent 2px
+	 	);
+	}
+
+	footer {
+		margin: 1rem;
+		padding: 1rem;
+		background-color: black;
+		color: ghostwhite;
+		border-radius: 10px;
+	}
+
+
+	@media screen and (max-width: 500px){
+
+		.nesting {
+			display: flex;
+			flex-direction: row;
+
+		.Missouri Outdoor Adventure Destinations {
+			font-size: 3rem;
+		}
+
+		.Missouri Outdoor Adventure Destinations li {
+			list-style-type: square;
+		}
+
+	
+	
 	}
