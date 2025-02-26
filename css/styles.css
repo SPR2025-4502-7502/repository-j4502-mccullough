@@ -70,4 +70,20 @@
 		background-color: rgba(153, 51, 204, 0.5);
 	/* rgb(153,51,204)*/
 	}
+
+	h1 {
+		display: flex;
+		justify-content: center;
+		font-family: "Playfair Display", serif;
+		font-size: 3rem;
+		color: ghostwhite;
+
+	}
+
+
+	p {
+		font-family: Baskerville, serif;
+	}
+
+	
 	}
