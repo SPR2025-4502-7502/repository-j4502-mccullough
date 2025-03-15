@@ -14,6 +14,12 @@
 
 }
 
+.anchor-nav a {
+	color:#2e8b57;
+	text-shadow: #220a00 1px 0 2px;
+	text-transform: uppercase;
+}
+
 
 
 
@@ -93,6 +99,10 @@
 		font-size: 3rem;
 		color: ghostwhite;
 
+	}
+
+	.listbiopics h1{
+		color: #F0FFFF;
 	}
 
 
