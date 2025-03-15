@@ -1,0 +1,226 @@
+.anchor-nav {
+	display: flex;
+	position: sticky;
+	top: 10px;
+	justify-content: space-evenly;
+	width: 80%;
+	background-color: HoneyDew;
+	margin: auto;
+	padding: 0.5rem;
+	color: #2E8B57;
+	text-transform: uppercase;
+	border-radius: 1rem;
+
+}
+
+.anchor-nav a {
+	color: #2e8b57;
+}
+
+
+
+
+
+
+	nav {
+
+		background-color:;
+		max-width: 800px;
+		margin: auto;
+		font-size: 1rem;
+		border-radius: 0.2rem;
+		text-transform: uppercase;
+	/*	margin-right: 1rem;*/
+	}
+
+	nav ul {
+		display: flex;
+	/*	flex-direction: row-reverse;*/
+	/* 	align-items: stretch;*/
+		flex-direction: row;
+		justify-content: space-between;
+		margin-block-start: 0em;
+		padding-inline-start: 0px;
+	/*	justify-content: right;*/
+	/*	margin-left: 1rem;*/
+
+
+	}
+
+	nav ul li {
+
+		background-color: cadetblue;
+	/*	flex-flow: row wrap;*/
+	/*	align-items: stretch;*/
+		list-style-type: none;
+		padding: 0.3rem;
+		margin: 0.1rem;
+		max-width: 100%;
+		border-radius: 0.5rem;
+	/*	border: 1px solid 		rgba(255,255,255,0.1);*/
+	border: 1px solid		rgba(0,162,230,0.5);
+		border: 5px solid	rgba(230,68,0,0.1);
+	}
+
+	nav ul li a {
+		font-family: 'Slab', serif;
+	/*	font-family: "Humanist", sans-serif;*/
+		font-optical-sizing: auto;
+		font-weight: 700;
+		font-style: normal;
+
+		text-decoration: none;
+		color: rgba(60,90,89,1.0);
+	}
+
+	nav ul li a:visited {
+		text-decoration: none;
+		color: darkred;
+	}
+
+	nav ul li a:hover {
+		text-decoration: ;
+		color: blue;
+	}
+
+	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: rgba(153, 51, 204, 0.5);
+	
+	}
+
+	h1 {
+		display: flex;
+		justify-content: center;
+		font-family: "Playfair Display", serif;
+		font-size: 3rem;
+		color: ghostwhite;
+
+	}
+
+	.listbiopics h1{
+		color: #F0FFFF;
+		text-shadow: #220a00 1px 0 2px;
+		text-transform: uppercase;
+	}
+
+
+	p {
+		font-family: Baskerville, serif;
+		justify-content: center;
+
+	}
+
+	.intro-text {
+		margin: 1rem;
+		margin-top: 2rem;
+		padding: 1rem;
+		background-color: rgba(240,255,255,0.4);
+		border-radius: 10px;
+
+
+		
+	}
+
+	.corner {
+		width: 50%;
+		height: 50%;
+		position: relative;
+		background-color: rgba(191,236,255,0.1);
+	}
+
+	.corner::before, .corner::after {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 15%;
+		padding-bottom: 15%;
+	}
+
+	.corner::before {
+		bottom: 0;
+		right: 0;
+		border-bottom: 5px solid #ad00e6;
+		border-right: 5px solid #ad00e6;
+	}
+
+	.corner::after {
+		bottom: 0;
+		right: 0;
+		border-bottom: 5px solid #ad00e6;
+		border-right: 5px solid #ad00e6;
+	}
+
+
+
+	.main-image {
+		display: flex;
+
+	}
+
+	img {
+		border:none;
+	}
+
+	.main-image img {
+		max-width: 50%;
+		border-radius: 0px;
+		margin: auto;
+
+	}
+
+	.terminal { 
+		background-color: black;
+		background-image: radial-gradient;
+
+	 }
+
+	 .terminal .space {
+	 	color: white;
+	 	font: 1.3rem Serif, sans-serif;
+	 }
+
+	 .terminal .space:after {
+	 	content: "";
+	 	position: absolute;
+	 	top: 0;
+	 	left: 0;
+	 	width: 100vw;
+	 	height: 100vh;
+	 	background: repeating-linear-gradient(
+	 		0deg,
+	 		rgba(black, 0.15),
+	 		rgba(black, 0.15) 1px,
+	 		transparent 1px
+	 		transparent 2px
+	 	);
+	}
+
+	footer {
+		margin: 1rem;
+		padding: 1rem;
+		background-color: black;
+		color: ghostwhite;
+		border-radius: 10px;
+	}
+
+
+	@media screen and (max-width: 500px){
+
+		.nesting {
+			display: flex;
+			flex-direction: row;
+
+		.Missouri Outdoor Adventure Destinations {
+			font-size: 3rem;
+		}
+
+		.Missouri Outdoor Adventure Destinations li {
+			list-style-type: square;
+		}
+
+	
+	
+	}
