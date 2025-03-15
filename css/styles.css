@@ -1,4 +1,19 @@
 
+.anchor-nav {
+	display: flex;
+	position: sticky;
+	top: 10px;
+	justify-content: space-evenly;
+	width: 80%;
+	background-color: HoneyDew;
+	margin: auto;
+	padding: 0.5rem;
+	color: #2E8B57;
+	text-transform: uppercase;
+	border-radius: 1rem;
+
+}
+
 
 
 
