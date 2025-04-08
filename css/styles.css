@@ -28,14 +28,14 @@
 	background-color: teal;
 	margin: auto;
 	padding: 0.5rem;
-	color: #FFFAF0;
+	color: #F8F8FF;
 	text-transform: uppercase;
 	border-radius: 1rem;
 
 }
 
 .anchor-nav a {
-	color: #fffaf0;
+	color: #f8f8ff;
 }
 
 
@@ -45,14 +45,14 @@ h1 {
 	justify-content: center;
 	font-family: "Bebe Neue", serif;
 	font-size: 2rem;
-	color: floralwhite;
-	text-shadow: #e64400 1px 0 10px;
+	color: ghostwhite;
+	text-shadow: #524542 1px 0 10px;
 /*	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;*/
 
 }
 
 .list1 h1{
-	color:#808080;
+	color:#808088;
 	text-shadow: #220a00 1px 0 2px;
 	text-transform: uppercase;
 }
@@ -66,7 +66,7 @@ p {
 	margin: 1rem;
 	margin-top: 2rem;
 	padding: 1rem;
-	background-color: rgba(191,182,222, 0.4);
+	background-color: rgba(191,216,221, 1);
 	border-radius: 10px;
 
 
@@ -76,14 +76,14 @@ p {
 
 
 body {
-	background-color: rgba(229, 172, 103, 0.5);
+	background-color: rgba(41, 106, 100, 0.94);
 	overflow: scroll; /* Show scrollbars */
 }
 
 
 .gallery-body {
 
-	background-color: purple;
+	background-color:darkslategray;
 }
 
 
@@ -99,9 +99,9 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover button{
-	text-decoration: ;
+	text-decoration: none;
 	color: cornsilk;
-	background-color: darkmagenta;
+	background-color: black;
 }
 
 nav ul li:hover {
@@ -111,7 +111,7 @@ nav ul li:hover {
 
 nav {
 
-	background-color: cornflowerblue;
+	background-color: ghostwhite;
 	max-width: 800px;
 	margin: auto;
 	font-size: 1rem;
@@ -137,7 +137,7 @@ nav ul {
 
 nav ul li {
 
-	background-color: azure;
+	background-color: lightsteelblue;
 	flex-flow: row wrap;
 	align-items: stretch;
 	list-style-type: none;
@@ -160,7 +160,7 @@ nav ul li a {
 	font-style: normal;
 
 	text-decoration: none;
-	color: rgba(230,68,0,0.5);
+	color: rgba(66,162,255,0.48);
 }
 
 
@@ -196,13 +196,72 @@ nav ul li:hover {
 	background-color: darkmagenta;
 }
 
+.text-holder,
+.location-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-wid
+}
 
+.location-holder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.listrestaurants {
+	text-align: center;
+}
+
+.restaurant-list-intro {
+	text-align: center;
+}
 .container {
     position: relative;
 }
 
+.restaurant-list-intro {
+	border-width: 8px;
+	border-style: solid;
+	border-color: cadetblue;
+	background: #5F9EA0;
+}
+
+.location-holder {
+	border-width: 13px;
+	border-style: solid;
+	border-color: oldlace;
+	background: #FDF5E6;
+}
+
+.text-holder {
+	border-width: 15px;
+	border-style: solid;
+	border-color: oldlace;
+	background: #FDF5E6;
+}
+
 .vertical-line {
 
+}
+
+.
+
+.text-holder
+p {
+	text-align: center;
+}
+
+.location-holder{
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+	align-items: center;
+	max-width: 900px;
+	margin: auto;
 }
 
 
@@ -220,7 +279,7 @@ nav ul li:hover {
 /*  width: 50%;*/
 /*  height: 50%;*/
   position: relative;
-  background-color: rgba(247,167,255,0.5);
+  background-color: rgba(117,167,255,0.5);
 }
 
 .corner::before, .corner::after {
@@ -355,6 +414,7 @@ h4 {
 p {
 	font-family: 'Cabin', sans-serif;
 }
+
 
 
 
