@@ -115,6 +115,11 @@ color: ghostwhite;
 	max-height: 80%;
 }
 
+button_next {  }
+button_previous {  }
+
+
+
 h1 {
 	display: flex;
 	justify-content: center;
