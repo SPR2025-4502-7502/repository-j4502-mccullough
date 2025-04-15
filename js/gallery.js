@@ -2,9 +2,9 @@
 
 var photoDivs = document.getElementsByClassName("gallery-image");
 
-var button_next = document.getElementById("button_next");
+var nextButton = document.getElementById("button_next");
 
-var button_previous = document.getElementById("button_previous");
+var previousButton = document.getElementById("button_previous");
 
 var photoNumber = document.getElementById("stepper");
 
@@ -14,7 +14,7 @@ photoDivs[currentPhotoNumber].classList.remove('hideThis');
 
 photoNumber.innerHTML = (currentPhotoNumber + 1) + " / " + photoDivs.length;
 
-button_next.addEventListener('click', function() {
+nextButton.addEventListener('click', function() {
   photoDivs[currentPhotoNumber].classList.add("hideThis");
   currentPhotoNumber = currentPhotoNumber + 1;
 
@@ -28,7 +28,7 @@ button_next.addEventListener('click', function() {
 
 });
 
-button_previous.addEventListener('click', function() {
+previousButton.addEventListener('click', function() {
   photoDivs[currentPhotoNumber].classList.add("hideThis");
   currentPhotoNumber = currentPhotoNumber - 1;
 
