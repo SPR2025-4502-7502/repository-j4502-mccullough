@@ -124,6 +124,10 @@ color: ghostwhite;
 	overflow: scroll;
 }
 
+.list1-body h1 {
+	color: #6A5ACD;
+}
+
 button_next {  }
 button_previous {  }
 
