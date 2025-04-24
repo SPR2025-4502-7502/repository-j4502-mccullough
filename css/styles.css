@@ -119,6 +119,11 @@ color: ghostwhite;
 	max-height: 80%;
 }
 
+.list1-body {
+	background-image: linear-gradient(to right, #483D8B, #4682B4);
+	overflow: scroll;
+}
+
 button_next {  }
 button_previous {  }
 
