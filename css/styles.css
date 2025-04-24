@@ -120,7 +120,7 @@ color: ghostwhite;
 }
 
 .list1-body {
-	background-image: linear-gradient(to right, #483D8B, #4682B4);
+	background-image: linear-gradient(to right, #191970, #483D8B, #4682B4);
 	overflow: scroll;
 }
 
@@ -162,18 +162,6 @@ p {
 }
 
 
-}
-
-
-
-
-
-
-
-
-.gallery-body {
-
-	background-color:darkslategray;
 }
 
 
