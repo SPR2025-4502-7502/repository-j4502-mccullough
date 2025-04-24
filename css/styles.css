@@ -61,7 +61,7 @@ nav a:hover {
 
 
 .gallery-body {
-	background-image: linear-gradient(to bottom, #ffefd5, #ffdab9, #fa8072);
+	background-image: linear-gradient(to bottom, #fa8072, #ffefd5, #ffdab9, #fa8072);
 	overflow: scroll;
 }
 
