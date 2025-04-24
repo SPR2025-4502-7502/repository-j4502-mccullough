@@ -134,6 +134,12 @@ color: ghostwhite;
 	overflow: scroll;
 }
 
+.index-body h1 {
+	font-family: "Noto serif", sans-serif;
+	color: cornflowerblue;
+	text-shadow: #f0f8ff 1px 0 10px;
+}
+
 
 button_next {  }
 button_previous {  }
