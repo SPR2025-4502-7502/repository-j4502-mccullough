@@ -2,12 +2,12 @@
 
 .skip-link {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
+  width: 2px;
+  height: 2px;
+  padding: 0.5;
   margin: -1px;
   overflow: hidden;
-  border: 0;
+  border: 1;
 }
 
 .skip-link:focus{
@@ -17,6 +17,10 @@
   padding: unset;
   margin: unset;
   font-size: 2rem;
+}
+
+.skip-link {
+	color: whitesmoke;
 }
 
 nav {
