@@ -61,7 +61,7 @@ nav a:hover {
 
 
 .gallery-body {
-	background-image: linear-gradient(to bottom, #fa8072, #ffefd5, #ffdab9, #E6E6FA #6A5ACD);
+	background-image: linear-gradient(to bottom, #fa8072, #ffdab9, #e6e6fa #6a5acd);
 	overflow: scroll;
 }
 
@@ -126,8 +126,13 @@ color: ghostwhite;
 
 .list1-body h1 {
 	font-family: "Noto serif", sans-serif;
-	color: slateblue;
+	color: darkblue;
 }
+
+.index-body {
+	background-image: linear-gradient(to right, #8fbc8f, #fffff0, #add8e6);
+}
+
 
 button_next {  }
 button_previous {  }
