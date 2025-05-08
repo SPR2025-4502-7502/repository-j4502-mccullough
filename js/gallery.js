@@ -26,6 +26,7 @@ nextButton.addEventListener('click', function() {
 
   photoNumber.innerHTML = (currentPhotoNumber + 1) + " / " + photoDivs.length;
 
+});
 
 previousButton.addEventListener('click', function() {
   photoDivs[currentPhotoNumber].classList.add("hideThis");
